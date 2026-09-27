@@ -1,0 +1,32 @@
+Module/Library
+streamlit
+Pillow
+
+
+Project structure
+Automated-Image-Puzzle-System/
+│
+├── home.py
+├── grid.py
+├── requirements.txt
+├── README.md
+├── statement.md
+│
+├── assets/
+│   └── sample_image.jpg
+│
+└── screenshots/
+    ├── main_interface.png
+    ├── uploaded_image.png
+    ├── scrambled_puzzle.png
+    └── solution.png
+
+
+
+Installation
+pip install -r requirements.txt
+
+
+
+Then run:
+streamlit run home.py
